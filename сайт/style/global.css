@@ -1,0 +1,229 @@
+body{
+    color: #ffffff;
+    max-width: 100%;
+    font-family: "Oswald", sans-serif;
+    margin: 0;
+    background-color: #040518;
+}
+.header{
+    background-image:url("https://static.kion.ru/kds/neaz_banner/base0124/banner_base_0124_xl.webp");
+    background-size: 1800px;
+    background-repeat: no-repeat;
+    background-position: 100px;
+    position: relative;
+}
+.artem_lox{
+    background-color: rgba(255, 255, 255, 0);
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 9;
+}
+#block0{
+    height:700px;
+    width: auto;
+
+}
+#block10{
+    display: flex;
+}
+#block01{
+    margin: 150px 0 0 385px;
+    position: absolute;
+}
+.kion{
+    margin-top: 20px;
+    margin-left: 385px;
+    font-weight: bold;
+}
+.leader{
+    color: #ffffff;
+    background-color: rgba(255, 255, 255, 0);
+    margin-top: 10px;
+    margin-left: 50px;
+    height: 50px;
+    font-weight: bold;
+    width: 100px;
+    font-size: 15px;
+    border: none;
+}
+.tv, .film, .serial, .registr {
+    color: #ffffff;
+    margin-left: 10px;
+    margin-top: 10px;
+    height: 50px;
+    width: 6%;
+    font-weight: bold;
+    font-size: 15px;
+    border: none;
+    background-color: rgba(255, 255, 255, 0);
+}
+.oform{
+    width: 282px;
+    height: 44px;
+    padding: 2px 24px 0;
+    border: none;
+    border-radius: 14px;
+    background: linear-gradient(144.11deg, #3c73b9 6.47%, #322882 127.1%);
+    color: #e6e6e8;
+    text-align: center;
+    margin: 24px 0 0;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 24px;
+}
+.text{
+    font-family: Russo One, serif;font-size: 40px;
+    text-transform: uppercase;
+    background: linear-gradient( #4690ee 0%, #b7c7ff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    display: table ;margin: 20px auto;
+}
+.search{
+    border-radius: 15px;
+    margin-top: 10px;
+    margin-left: 2%;
+    height: 50px;
+    width: 12%;
+    font-size: 16px;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0);
+}
+.promo{
+    border-radius: 15px;
+    margin-top: 10px;
+    height: 50px;
+    width: 9%;
+    font-size: 16px;
+    margin-left: 1%;
+    background-color: rgba(255, 255, 255, 0);
+}
+.tex{
+    text-decoration: none;
+    color: white;
+}
+.all{
+    font-size: 16px;
+    margin: 4% 5% 0 40%;
+}
+.popular{
+    font-weight: bold;
+    margin: 4% 5% 0 20%;
+    font-size: 23px
+}
+.popular_films {
+    margin: 15px 370px;
+    background-color: #040518;
+    width: 61%;
+    height: 300px;
+    white-space: nowrap;
+    border-radius: 10px;
+}
+.f1_block {
+    margin-left: 0;
+    padding-left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.strela {
+    display: inline-block;
+    border-radius: 80px;
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 19px;
+    color: white;
+    margin-left: 7px;
+    margin-right: -15px;
+    box-sizing: border-box;
+    background: deepskyblue;
+}
+.strela1 {
+    display: inline-block;
+    border-radius: 80px;
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 19px;
+    color: white;
+    margin-left: 5px;
+    margin-right: 10px;
+    box-sizing: border-box;
+    background: deepskyblue;
+}
+.button1{
+    margin-left: 20px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    width: 160px;
+    height: 243px;
+    border-radius: 10px;
+}
+.button2{
+    display: none;
+    margin-left: 20px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    width: 160px;
+    height: 243px;
+    border-radius: 10px;
+}
+.bаtton1{
+    margin-left: 20px;
+    margin-top: 0;
+}
+.zvezda{
+    width: 16px;
+    height: 16px;
+}
+.block11{
+    width: 61%;
+    height: 5rem;
+}
+.popuski {
+    margin: 15px 370px;
+    background-color: #040518;
+    width: 61%;
+    height: 270px;
+    white-space: nowrap;
+    border-radius: 10px;
+}
+.f2_block {
+    margin-left: 0;
+    padding-left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.button3{
+    background-image: url("https://static.kion.ru/covers/images/formats/RECT_722a2ac155711c6851d23f1e0b243394.avif");
+    margin-left: 20px;
+    margin-top: 15px;
+    margin-bottom: 5px;
+    width: 350px;
+    height: 230px;
+    border-radius: 30px;
+}
+.button4{
+    margin-left: 20px;
+    margin-top: 15px;
+    margin-bottom: 5px;
+    width: 350px;
+    height: 230px;
+    border-radius: 30px;
+}
+.end2{
+    flex-direction: column;
+    display: flex;
+    font-size: 20px;
+}
+.end1{
+    flex-direction: row;
+    align-self: center;
+    display: flex;
+    font-size: 20px;
+}
