@@ -1,0 +1,196 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: sans-serif;
+}
+
+.section1{
+  background: linear-gradient(90deg, #DFFFF5 0%, #FFE6FA 100%);
+}
+
+.container{
+  position: relative;
+  width: 1300px;
+  margin: 0 auto;
+}
+
+.labels{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.onelabel{
+  text-decoration: none;
+  margin-left: 50px;
+}
+
+.twolabel{
+  text-decoration: none;
+  margin-left: 50px;
+}
+
+.but1{
+  margin-left: 50px;
+  border-radius: 25px;
+  width: 192px;
+  height: 48px;
+  background: none;
+  color: black;
+}
+
+.but1:hover{
+  background: none;
+  cursor: pointer;
+}
+
+.mainmenu{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 120px;
+  align-items: center;
+}
+
+.name{
+  font-size: 20px;
+  font-weight: 400;
+  border-radius: 30px 30px 30px 0;
+  background: #645CC3;
+  padding: 10px 15px;
+  color: white;
+}
+
+.school{
+  position: relative;
+  font-size: 70px;
+  background: none;
+  font-weight: 400;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  z-index: 12;
+}
+
+.address{
+  width: 133px;
+  height: 42px;
+  border-radius: 25px;
+  background: none;
+  color: black;
+}
+
+.labeles{
+  display: flex;
+}
+
+.gamert{
+  display: flex;
+  flex-direction: column;
+  margin-left: 30px;
+}
+
+.horses{
+  margin-left: 30px;
+}
+
+.game{
+  width: 32px;
+  height: 23px;
+  margin-left: 10px;
+  margin-bottom: 10px;
+}
+
+.gaming{
+  width: 117px;
+  height: 42px;
+}
+
+.horse{
+  width: 40px;
+  height: 25px;
+  margin-bottom: 10px;
+}
+
+.horsing{
+  width: 117px;
+  height: 42px;
+}
+
+/*.square{*/
+/*  display: flex;*/
+/*  justify-content: space-evenly;*/
+/*  align-items: center;*/
+/*  background: #645CC3;*/
+/*  width: 600px;*/
+/*  height: 300px;*/
+/*}*/
+
+/*.window{*/
+/*  width: 100px;*/
+/*  height: 100px;*/
+/*  background: aqua;*/
+/*  border: black solid 5px;*/
+/*}*/
+
+.circles{
+  position: absolute;
+  top: 170px;
+  left: 460px;
+}
+
+.line{
+  position: absolute;
+  top: 790px;
+  left: 1190px;
+}
+
+.vector{
+  position: absolute;
+  top: 730px;
+  left: 350px;
+  transition: 1s;
+}
+
+.vector:hover{
+  scale: 1.3;
+  transition: 1s;
+  transform: rotateZ(180deg);
+}
+
+.path{
+  position: absolute;
+  top: 547px;
+  left: 0;
+  width: 350px;
+}
+
+.user{
+  position: absolute;
+  top: 123px;
+  right: 11px;
+  height: 160px;
+  width: 160px;
+  /*top: 40px;*/
+  /*left: 1310px;*/
+}
+
+.section2{
+  background: #645CC3;
+}
+
+.enjoy{
+  color: white;
+  opacity: 0.3;
+  font-size: 150px;
+  font-weight: bold;
+}
+
+.fun{
+  color: white;
+  font-weight: bold;
+  font-size: 56px;
+  width: 581px;
+}
