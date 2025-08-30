@@ -248,12 +248,15 @@ body{
   font-size: 35px;
   width: 478px;
   padding-top: 55px;
+  padding-bottom: 55px;
 }
 
 .lessons8{
+  position: relative;
   width: 340px;
   background: none;
   box-shadow: 0 0 100px grey;
+  border-radius: 40px;
 }
 
 .l8{
@@ -261,6 +264,7 @@ body{
   text-align: center;
   color: #645CC3;
   font-weight: bold;
+  padding-top: 70px;
 }
 
 .cost{
@@ -275,20 +279,35 @@ body{
 }
 
 .cost1{
-
-}
-.cost2{
-
+  color: #645CC3;
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 15px;
 }
 
 .onecost{
-
-}
-
-.allcost{
-
+  color: #645CC3;
+  font-size: 14px;
 }
 
 .one{
+  text-align: center;
+}
 
+.week2{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.weekend2{
+  font-size: 16px;
+}
+
+.onecard{
+  position: absolute;
+  left: 165px;
+  height: 80px;
+  width: 175px;
+  border-radius: 0 40px 0 0;
 }
